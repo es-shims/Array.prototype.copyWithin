@@ -1,0 +1,33 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"rules": {
+		"func-name-matching": 0,
+		"id-length": 0,
+		"new-cap": [2, {
+			"capIsNewExceptions": [
+				"DeletePropertyOrThrow",
+				"Get",
+				"GetIntrinsic",
+				"HasProperty",
+				"LengthOfArrayLike",
+				"RequireObjectCoercible",
+				"Set",
+				"ToInteger",
+				"ToObject",
+				"ToString",
+			],
+		}],
+	},
+
+	"overrides": [
+		{
+			"files": "test/**",
+			"rules": {
+				"max-lines-per-function": 0,
+			},
+		},
+	],
+}
