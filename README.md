@@ -1,6 +1,5 @@
 # array.prototype.copywithin <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -54,9 +53,7 @@ assert.deepEqual(arr, [4, 5, 3, 4, 5]);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.org/package/array.prototype.copywithin
-[npm-version-svg]: http://versionbadg.es/es-shims/Array.prototype.copyWithin.svg
-[travis-svg]: https://travis-ci.org/es-shims/Array.prototype.copyWithin.svg
-[travis-url]: https://travis-ci.org/es-shims/Array.prototype.copyWithin
+[npm-version-svg]: https://versionbadg.es/es-shims/Array.prototype.copyWithin.svg
 [deps-svg]: https://david-dm.org/es-shims/Array.prototype.copyWithin.svg
 [deps-url]: https://david-dm.org/es-shims/Array.prototype.copyWithin
 [dev-deps-svg]: https://david-dm.org/es-shims/Array.prototype.copyWithin/dev-status.svg
