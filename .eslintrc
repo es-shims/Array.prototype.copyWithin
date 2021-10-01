@@ -15,7 +15,7 @@
 				"LengthOfArrayLike",
 				"RequireObjectCoercible",
 				"Set",
-				"ToInteger",
+				"ToIntegerOrInfinity",
 				"ToObject",
 				"ToString",
 			],

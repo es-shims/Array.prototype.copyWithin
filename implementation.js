@@ -1,13 +1,13 @@
 'use strict';
 
-var DeletePropertyOrThrow = require('es-abstract/2020/DeletePropertyOrThrow');
-var Get = require('es-abstract/2020/Get');
-var HasProperty = require('es-abstract/2020/HasProperty');
-var LengthOfArrayLike = require('es-abstract/2020/LengthOfArrayLike');
-var Set = require('es-abstract/2020/Set');
-var ToInteger = require('es-abstract/2020/ToInteger');
-var ToObject = require('es-abstract/2020/ToObject');
-var ToString = require('es-abstract/2020/ToString');
+var DeletePropertyOrThrow = require('es-abstract/2021/DeletePropertyOrThrow');
+var Get = require('es-abstract/2021/Get');
+var HasProperty = require('es-abstract/2021/HasProperty');
+var LengthOfArrayLike = require('es-abstract/2021/LengthOfArrayLike');
+var Set = require('es-abstract/2021/Set');
+var ToIntegerOrInfinity = require('es-abstract/2021/ToIntegerOrInfinity');
+var ToObject = require('es-abstract/2021/ToObject');
+var ToString = require('es-abstract/2021/ToString');
 
 var GetIntrinsic = require('get-intrinsic');
 var max = GetIntrinsic('%Math.max%');
@@ -21,13 +21,13 @@ module.exports = function copyWithin(target, start) {
 	var len = LengthOfArrayLike(O);
 
 	// Let _relativeTarget_ be ? ToInteger(_target_).
-	var relativeTarget = ToInteger(target);
+	var relativeTarget = ToIntegerOrInfinity(target);
 
 	// If _relativeTarget_ < 0, let _to_ be max((len + relativeTarget), 0); else let _to_ be min(relativeTarget, len).
 	var to = relativeTarget < 0 ? max(len + relativeTarget, 0) : min(relativeTarget, len);
 
 	// Let _relativeStart_ be ? ToInteger(_start_).
-	var relativeStart = ToInteger(start);
+	var relativeStart = ToIntegerOrInfinity(start);
 
 	// If _relativeStart_ < 0, let _from_ be max((_len_ + _relativeStart_), 0); else let _from_ be min(_relativeStart_, _len_).
 	var from = relativeStart < 0 ? max(len + relativeStart, 0) : min(relativeStart, len);
@@ -37,7 +37,7 @@ module.exports = function copyWithin(target, start) {
 		end = arguments[2];
 	}
 	// If _end_ is undefined, let _relativeEnd_ be _len_; else let _relativeEnd_ be ? ToInteger(_end_).
-	var relativeEnd = typeof end === 'undefined' ? len : ToInteger(end);
+	var relativeEnd = typeof end === 'undefined' ? len : ToIntegerOrInfinity(end);
 
 	// If _relativeEnd_ < 0, let _final_ be max((_len_ + _relativeEnd_), 0); else let _final_ be min(_relativeEnd_, _len_).
 	var final = relativeEnd < 0 ? max(len + relativeEnd, 0) : min(relativeEnd, len);

@@ -3,7 +3,7 @@
 var callBind = require('call-bind');
 var callBound = require('call-bind/callBound');
 var define = require('define-properties');
-var RequireObjectCoercible = require('es-abstract/2020/RequireObjectCoercible');
+var RequireObjectCoercible = require('es-abstract/2021/RequireObjectCoercible');
 
 var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
