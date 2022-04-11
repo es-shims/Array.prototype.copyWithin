@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/es-shims/Array.prototype.copyWithin/compare/v1.0.1...v1.1.0) - 2022-04-11
+
+### Commits
+
+- [actions] reuse common workflows [`5f204cc`](https://github.com/es-shims/Array.prototype.copyWithin/commit/5f204cc446492e831bb13c0bcdedc2977063eb66)
+- [actions] update codecov uploader [`7564dfd`](https://github.com/es-shims/Array.prototype.copyWithin/commit/7564dfdaf3404648ab2af36fcff1fbbb192b182d)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`da76ea8`](https://github.com/es-shims/Array.prototype.copyWithin/commit/da76ea8949ae5fbde72080e33b0abfe22b181163)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`816a956`](https://github.com/es-shims/Array.prototype.copyWithin/commit/816a956d210e4f761ec64f4c4fae634868855d49)
+- [New] `shim`/`auto`: add `copyWithin` to `Symbol.unscopables` [`c362435`](https://github.com/es-shims/Array.prototype.copyWithin/commit/c3624357ea2f25cf5020579763871d8a6e454278)
+- [Deps] update `es-abstract` [`f28de62`](https://github.com/es-shims/Array.prototype.copyWithin/commit/f28de62be32fc4c415c297ed90dc3413e36671f5)
+- [Deps] update `es-abstract` [`9f8df51`](https://github.com/es-shims/Array.prototype.copyWithin/commit/9f8df51ee8650eff4a8c3abb05120575da25a05e)
+
 ## [v1.0.1](https://github.com/es-shims/Array.prototype.copyWithin/compare/v1.0.0...v1.0.1) - 2021-10-01
 
 ### Commits
