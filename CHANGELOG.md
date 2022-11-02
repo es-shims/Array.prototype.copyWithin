@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.1](https://github.com/es-shims/Array.prototype.copyWithin/compare/v1.1.0...v1.1.1) - 2022-11-02
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`e4149d6`](https://github.com/es-shims/Array.prototype.copyWithin/commit/e4149d6542b0bc93417cff3fc54070d0b9898f37)
+- [Deps] update `define-properties`, `es-abstract`, `get-intrinsic` [`d92adab`](https://github.com/es-shims/Array.prototype.copyWithin/commit/d92adab85afc40af0ef01261eff8bbe95a91efbc)
+- [actions] update rebase action to use reusable workflow [`55eac99`](https://github.com/es-shims/Array.prototype.copyWithin/commit/55eac992c04923bcf029bc8f27b84d5c08629467)
+- [Dev Deps] update `aud`, `functions-have-names`, `tape` [`5d06fbd`](https://github.com/es-shims/Array.prototype.copyWithin/commit/5d06fbd5a7c385fc58dc8176b6d30ef17169370e)
+
 ## [v1.1.0](https://github.com/es-shims/Array.prototype.copyWithin/compare/v1.0.1...v1.1.0) - 2022-04-11
 
 ### Commits
