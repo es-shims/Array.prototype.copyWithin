@@ -1,6 +1,6 @@
 'use strict';
 
-var has = require('has');
+var hasOwn = require('hasown');
 var getProto = require('es-abstract/helpers/getProto');
 var setProto = require('es-abstract/helpers/setProto');
 
@@ -73,8 +73,8 @@ module.exports = function (copyWithin, t) {
 		sparse.length = 3;
 		var result = copyWithin(sparse, 1, 0);
 		st.ok('0' in result, 'has inherited 0');
-		st.notOk(has(result, '0'), 'lacks own 0');
-		st.ok(has(result, '1'), 'has own 1');
+		st.notOk(hasOwn(result, '0'), 'lacks own 0');
+		st.ok(hasOwn(result, '1'), 'has own 1');
 
 		st.equal(result[0], 'foo');
 		// use deepLooseEqual here to ignore [[Prototype]] difference
