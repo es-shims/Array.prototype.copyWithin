@@ -1,6 +1,6 @@
 import callBind from 'call-bind';
 import callBound from 'call-bind/callBound';
-import RequireObjectCoercible from 'es-abstract/2023/RequireObjectCoercible.js';
+import RequireObjectCoercible from 'es-object-atoms/RequireObjectCoercible';
 
 import getPolyfill from 'array.prototype.copywithin/polyfill';
 
