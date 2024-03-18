@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.3](https://github.com/es-shims/Array.prototype.copyWithin/compare/v1.1.2...v1.1.3) - 2024-03-18
+
+### Commits
+
+- [Refactor] remove useless ESM [`0cfe8e3`](https://github.com/es-shims/Array.prototype.copyWithin/commit/0cfe8e39d30a6e9e2c0f2020e48ea54111b77d78)
+- [Deps] update `call-bind`, `define-properties`, `es-abstract`, `es-shim-unscopables`, `get-intrinsic` [`e7e46d8`](https://github.com/es-shims/Array.prototype.copyWithin/commit/e7e46d820ab50d1236953777231e39603a03e9a2)
+- [actions] remove redundant finisher [`b4238c4`](https://github.com/es-shims/Array.prototype.copyWithin/commit/b4238c4c053e672e5c6413bbbf170deff2200d11)
+- [Dev Deps] update `aud`, `hasown`, `npmignore`, `tape` [`8ffb39f`](https://github.com/es-shims/Array.prototype.copyWithin/commit/8ffb39f95376bf828cd32065ce6fe203857a88c6)
+- [Dev Deps] use `hasown` instead of `has` [`de2e075`](https://github.com/es-shims/Array.prototype.copyWithin/commit/de2e075375f952462a623f57082049e98249954d)
+- [Refactor] use `es-object-atoms` where possible [`c96c2be`](https://github.com/es-shims/Array.prototype.copyWithin/commit/c96c2be8db6d6c9a6c0b2aba3ed2de088f6d1a52)
+- [Dev Deps] update `tape` [`0240969`](https://github.com/es-shims/Array.prototype.copyWithin/commit/0240969f91b0879d0890b9e48ef5abd0d929be78)
+- [Tests] run es-shim-api tests [`f95b2ed`](https://github.com/es-shims/Array.prototype.copyWithin/commit/f95b2edef9ab49dc6b1f9fe64f64cee15ead140e)
+
 ## [v1.1.2](https://github.com/es-shims/Array.prototype.copyWithin/compare/v1.1.1...v1.1.2) - 2023-09-05
 
 ### Commits
