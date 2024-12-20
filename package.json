@@ -76,7 +76,7 @@
 		"es-abstract": "^1.23.6",
 		"es-object-atoms": "^1.0.0",
 		"es-shim-unscopables": "^1.0.2",
-		"get-intrinsic": "^1.2.6"
+		"math-intrinsics": "^1.1.0"
 	},
 	"testling": {
 		"files": "test/*.js"

@@ -10,7 +10,6 @@
 			"capIsNewExceptions": [
 				"DeletePropertyOrThrow",
 				"Get",
-				"GetIntrinsic",
 				"HasProperty",
 				"LengthOfArrayLike",
 				"RequireObjectCoercible",

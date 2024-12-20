@@ -9,9 +9,8 @@ var ToIntegerOrInfinity = require('es-abstract/2024/ToIntegerOrInfinity');
 var ToObject = require('es-abstract/2024/ToObject');
 var ToString = require('es-abstract/2024/ToString');
 
-var GetIntrinsic = require('get-intrinsic');
-var max = GetIntrinsic('%Math.max%');
-var min = GetIntrinsic('%Math.min%');
+var max = require('math-intrinsics/max');
+var min = require('math-intrinsics/min');
 
 module.exports = function copyWithin(target, start) {
 	// Let _O_ be ? ToObject(this value).
