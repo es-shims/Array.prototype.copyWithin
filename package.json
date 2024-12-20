@@ -70,12 +70,12 @@
 		"tape": "^5.9.0"
 	},
 	"dependencies": {
-		"call-bind": "^1.0.7",
+		"call-bind": "^1.0.8",
 		"define-properties": "^1.2.1",
-		"es-abstract": "^1.23.2",
+		"es-abstract": "^1.23.6",
 		"es-object-atoms": "^1.0.0",
 		"es-shim-unscopables": "^1.0.2",
-		"get-intrinsic": "^1.2.4"
+		"get-intrinsic": "^1.2.6"
 	},
 	"testling": {
 		"files": "test/*.js"
