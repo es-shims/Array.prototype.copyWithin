@@ -55,6 +55,7 @@
 		"call-bound": "^1.0.3",
 		"define-properties": "^1.2.1",
 		"es-abstract": "^1.23.6",
+		"es-object-atoms": "^1.0.0",
 		"es-shim-unscopables": "^1.0.2",
 		"math-intrinsics": "^1.1.0"
 	},

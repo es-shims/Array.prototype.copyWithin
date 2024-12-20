@@ -6,7 +6,7 @@ var HasProperty = require('es-abstract/2024/HasProperty');
 var LengthOfArrayLike = require('es-abstract/2024/LengthOfArrayLike');
 var Set = require('es-abstract/2024/Set');
 var ToIntegerOrInfinity = require('es-abstract/2024/ToIntegerOrInfinity');
-var ToObject = require('es-abstract/2024/ToObject');
+var ToObject = require('es-object-atoms/ToObject');
 var ToString = require('es-abstract/2024/ToString');
 
 var max = require('math-intrinsics/max');
