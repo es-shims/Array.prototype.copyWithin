@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.4](https://github.com/es-shims/Array.prototype.copyWithin/compare/v1.1.3...v1.1.4) - 2024-12-19
+
+### Commits
+
+- [actions] split out node 10-20, and 20+ [`8296654`](https://github.com/es-shims/Array.prototype.copyWithin/commit/829665450f8aa8cfe76516c29c1eed89a4fbb3d6)
+- [meta] sort package.json [`f6cf8a5`](https://github.com/es-shims/Array.prototype.copyWithin/commit/f6cf8a5c766969672fcbe9b8d0ccd69bb8a16a10)
+- [Refactor] use `math-intrinsics` directly; drop `get-intrinsic` [`a8698c6`](https://github.com/es-shims/Array.prototype.copyWithin/commit/a8698c619205a878b8cf3c64c50b5471fcf4fb0a)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `tape` [`46127a1`](https://github.com/es-shims/Array.prototype.copyWithin/commit/46127a1daaa953c5b0d37213b4ce8d6292ba56d2)
+- [Deps] update `call-bind`, `es-abstract`, `get-intrinsic` [`124cb6c`](https://github.com/es-shims/Array.prototype.copyWithin/commit/124cb6c332791938bc1bcdf4c804af9911aab174)
+- [Refactor] use `es-object-atoms` directly [`809d396`](https://github.com/es-shims/Array.prototype.copyWithin/commit/809d396c210e68ff030c6cb88c350ec2791c010d)
+- [Refactor] use `call-bound` directly [`228d239`](https://github.com/es-shims/Array.prototype.copyWithin/commit/228d239c251103d6baaf3a540aadb8d587af868e)
+- [Tests] replace `aud` with `npm audit` [`9977b72`](https://github.com/es-shims/Array.prototype.copyWithin/commit/9977b7247d811429b3d80fbeb20a70693e3ac6ec)
+- [Dev Deps] add missing peer dep [`7dfbee5`](https://github.com/es-shims/Array.prototype.copyWithin/commit/7dfbee5f3513f59ac4b608920bd87b78ca9ea04c)
+
 ## [v1.1.3](https://github.com/es-shims/Array.prototype.copyWithin/compare/v1.1.2...v1.1.3) - 2024-03-18
 
 ### Commits
