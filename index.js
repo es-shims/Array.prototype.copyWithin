@@ -1,7 +1,7 @@
 'use strict';
 
 var callBind = require('call-bind');
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 var define = require('define-properties');
 var RequireObjectCoercible = require('es-object-atoms/RequireObjectCoercible');
 
