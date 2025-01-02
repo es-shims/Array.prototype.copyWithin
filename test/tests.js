@@ -1,8 +1,8 @@
 'use strict';
 
 var hasOwn = require('hasown');
-var getProto = require('es-abstract/helpers/getProto');
-var setProto = require('es-abstract/helpers/setProto');
+var getProto = require('get-proto');
+var setProto = require('set-proto');
 
 module.exports = function (copyWithin, t) {
 	t.test('modifies the object in-place', { only: true }, function (st) {
